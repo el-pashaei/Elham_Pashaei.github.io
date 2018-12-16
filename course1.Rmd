@@ -1,0 +1,72 @@
+
+<h2><center> CS2750  Machine Learning </center></h2>
+<p><b><center><font size= 4px> Time:</b> Tuesday, Thursday 1:00pm-2:15pm</font> </center></p>
+<p><b><center><font size= 4px> Location:</b> Sennott Square, Room 5313</font> </center></p>
+<hr>
+
+<div style="display: none;">
+<h3 style="color:red;"><i class="fa fa-universal-access" style="color:black;"> </i> Announcements </h3>
+<ul>
+<li><p>The term project reports are due on April 26, 2018 at 1:00pm. The project report should be organized like a conference paper with abstract, introduction, related work, methodology, experimental results, discussion of results and conclusion sections. The reports should be self-explanatory. The methodology section should explain briefly but clearly the methods used and provide relevant references to past work. The code you have developed (not the data !!!) should be submitted in the zip file via a separate link Term project submission link. Please acknowledge any code/packages used to develop the models or the ML algorithms.</p></li>
+
+<li><p>The term project presentations will be held on April 24, 2018 and April 26, 2018 at 1:00pm during the regularly scheduled class time. Click here to access the order of presentations and presentation guidelines . The presentations in the pdf format should be submitted via Course Web by 12:30pm on the day the presentation is scheduled.
+The TA office hours are now held in 5324 Sennott Square.</p></li>
+</ul> 
+<hr>
+</div>
+
+<h3 style="color:green;"><i class="fa fa-pencil-square-o" style="color:black;"> </i> Homeworks </h3> 
+<p>The homework assignments will have mostly a character of projects and will require you to implement some of the learning algorithms covered during the lectures. Programming assignments will be implemented in R.
+The assignment reports and programs should be submitted electronically using mail attachment. The assignments are due at the beginning of the class on the day specified on the assignment. In general, no extensions will be granted.</p>
+<hr>
+
+<h3 style="color:green;"><i class="fa fa-map-o" style="color:black;"> </i> Text Book</h3> 
+<br>
+<hr>
+
+<h3 style="color:green;"><i class="fa fa-folder-o" style="color:black;"> </i> Lectures </h3>
+<br>
+```{r, echo=FALSE, results='asis'}
+library(knitr)
+library(kableExtra)
+library(formattable)
+
+options(knitr.kable.NA = '')
+
+dt <- data.frame(
+       Date = c("Tue Aug 30, 2018","Wed Aug 31, 2018"),
+       
+       Chapter = c("introduction ","salam"),
+       
+       Assignment=c(NA,NA)
+)
+dt[is.na(dt)]=''
+
+urls <- rep("files/sanjesh.pdf",2)
+
+
+dt$Chapter <- paste0(  "[", dt$Chapter,"](",urls,")")
+pico <- rep("pencil", nrow(dt))
+dt1 <- format_table(dt, 
+              list(
+                   #Date=formatter("span", icontext(c("file","download"),dt$Date)),
+                   Chapter=formatter("span", icontext(pico,dt$Chapter))
+                   
+                  ))
+#class(dt1)
+#kable(dt,booktabs = T,escape = F) %>%
+kable_styling(dt1,bootstrap_options =c("striped","bordered"), full_width = F, position = "left",font_size = 15) %>%
+  column_spec(1:3, width = "17em",bold = FALSE) %>%
+  row_spec(0, bold = T, color = "white", background = "darkcyan",font_size =17, align = "left")%>%
+  row_spec(1:nrow(dt), bold = F, background = "whitesmoke",font_size =15,align = "left")
+
+
+```
+
+
+
+
+
+
+
+

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="index.html">
+    <span class="fa fa-graduation-cap"></span>
+     
+    Courses
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<h2>
+<center>
+CS2750 Machine Learning
+</center>
+</h2>
+<p>
+<b>
+<center>
+<font size= 4px> Time:</b> Tuesday, Thursday 1:00pm-2:15pm</font>
+</center>
+</p>
+<p>
+<b>
+<center>
+<font size= 4px> Location:</b> Sennott Square, Room 5313</font>
+</center>
+</p>
+<hr>
+<div style="display: none;">
+<h3 style="color:red;">
+<i class="fa fa-universal-access" style="color:black;"> </i> Announcements
+</h3>
+<ul>
+<li>
+<p>
+The term project reports are due on April 26, 2018 at 1:00pm. The project report should be organized like a conference paper with abstract, introduction, related work, methodology, experimental results, discussion of results and conclusion sections. The reports should be self-explanatory. The methodology section should explain briefly but clearly the methods used and provide relevant references to past work. The code you have developed (not the data !!!) should be submitted in the zip file via a separate link Term project submission link. Please acknowledge any code/packages used to develop the models or the ML algorithms.
+</p>
+</li>
+<li>
+<p>
+The term project presentations will be held on April 24, 2018 and April 26, 2018 at 1:00pm during the regularly scheduled class time. Click here to access the order of presentations and presentation guidelines . The presentations in the pdf format should be submitted via Course Web by 12:30pm on the day the presentation is scheduled. The TA office hours are now held in 5324 Sennott Square.
+</p>
+</li>
+</ul>
+<hr>
+</div>
+<h3 style="color:green;">
+<i class="fa fa-pencil-square-o" style="color:black;"> </i> Homeworks
+</h3>
+<p>
+The homework assignments will have mostly a character of projects and will require you to implement some of the learning algorithms covered during the lectures. Programming assignments will be implemented in R. The assignment reports and programs should be submitted electronically using mail attachment. The assignments are due at the beginning of the class on the day specified on the assignment. In general, no extensions will be granted.
+</p>
+<hr>
+<h3 style="color:green;">
+<i class="fa fa-map-o" style="color:black;"> </i> Text Book
+</h3>
+<br>
+<hr>
+<h3 style="color:green;">
+<i class="fa fa-folder-o" style="color:black;"> </i> Lectures
+</h3>
+<br>
+<table class="table table-condensed table table-striped table-bordered" style="font-size: 15px; width: auto !important; ">
+<thead>
+<tr>
+<th style="text-align:right;font-weight: bold;color: white;background-color: darkcyan;text-align: left;font-size: 17px;">
+Date
+</th>
+<th style="text-align:right;font-weight: bold;color: white;background-color: darkcyan;text-align: left;font-size: 17px;">
+Chapter
+</th>
+<th style="text-align:right;font-weight: bold;color: white;background-color: darkcyan;text-align: left;font-size: 17px;">
+Assignment
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;width: 17em; background-color: whitesmoke;text-align: left;font-size: 15px;">
+Tue Aug 30, 2018
+</td>
+<td style="text-align:right;width: 17em; background-color: whitesmoke;text-align: left;font-size: 15px;">
+<span> <i class="glyphicon glyphicon-pencil"></i> <a href="files/sanjesh.pdf">introduction</a> </span>
+</td>
+<td style="text-align:right;width: 17em; background-color: whitesmoke;text-align: left;font-size: 15px;">
+</td>
+</tr>
+<tr>
+<td style="text-align:right;width: 17em; background-color: whitesmoke;text-align: left;font-size: 15px;">
+Wed Aug 31, 2018
+</td>
+<td style="text-align:right;width: 17em; background-color: whitesmoke;text-align: left;font-size: 15px;">
+<span> <i class="glyphicon glyphicon-pencil"></i> <a href="files/sanjesh.pdf">salam</a> </span>
+</td>
+<td style="text-align:right;width: 17em; background-color: whitesmoke;text-align: left;font-size: 15px;">
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

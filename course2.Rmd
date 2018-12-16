@@ -1,0 +1,25 @@
+<br>
+<h3> Logistics </h3>
+<p><b> Instructor:</b> Dr.Pashaei </p> 
+<p><b> Instructor office hours:</b> 
+<h5> Monday 3:30-4:30pm in 3223 </h5>
+<h5>Friday 10-11am in </h5>
+
+<h3> Grading </h3>
+ <ul>
+  <li>In-class participation- 5%</li>
+  <li>Programming projects and presentations- 25%</li>
+  <li>Two in-class midterms - 30% (15% each)</li>
+  <li>In-class final - 40%</li>
+</ul> 
+
+<h3> Attendance policy </h3>
+Please notify me in advance if you will miss any exam due to a University sanctioned excuse (medical absence,etc.).  In case of sudden illness that causes you to miss an exam you must provide me with a medical note documenting the illness, and clearly specifying the days/times that you were incapacitated due to illness. 
+Part of the class grade is participation. Reasonable absences will be accommodated when grading.
+
+<h3>Late policy </h3>
+You can submit up to 2 programming assignments up to 2 days late without any penalty, after which no credit will be given.
+
+<h3> Academic honesty </h3>
+Simply cheating will not be tolerated under any circumstance. While you are allowed to prepare for assignments, you must complete all assignments by yourselves. Also, all exams are strictly individual.
+In particular, the code you submit must be your own. I am well aware of the various code floating around github and other online forums.

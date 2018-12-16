@@ -1,0 +1,6 @@
+<br>
+<b><font size= 5.5px> Teaching Courses </font></b>
+
+- [<b style="color:blue;"><font size=4px> Machine Learning <font></b>](course1.html)
+
+- [<b style="color:blue;"><font size=4px> Bioinformatics </font></b>](course2.html)

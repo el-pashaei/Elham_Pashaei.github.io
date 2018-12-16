@@ -1,0 +1,26 @@
+name: "Myweb"
+output_dir: "."
+
+navbar:
+  title: ""
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "Courses"
+      icon: fa-graduation-cap
+      href: index.html
+#     href: course3.html
+#      menu:
+#        - text: "Bioinformatic"
+#          href: course1.html
+#        - text: "Machine Learninh"
+#          href: course2.html
+    
+output:
+  html_document:
+    theme: flatly
+    #highlight: espresso
+    css: styles.css    
+
+

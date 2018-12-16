@@ -1,0 +1,71 @@
+---
+title: "Dr. Elham Pashaei" 
+---
+<style>
+.column-left{
+  float: left;
+  width: 70%;
+  text-align: left;
+}
+.column-right{
+  float: right;
+  width: 25%;
+  text-align: right;
+}
+</style>
+
+<div class="column-right">
+ <img src="images/coffee.jpg" style="width:80%; border:3px solid;margin-right:1px" align="right"">
+</div>
+
+
+<div class="column-left">
+ <a href="https://scholar.google.com.tr/citations?user=rRZBw4wAAAAJ&hl=en"><font size= 3px > <font color=blue> Google Scholar Citation </font></a>. <a href="http://yildiz.academia.edu/ElhamPashaei"><font size= 3px > <font color=blue> Academia </font></a>. <a href="https://www.researchgate.net/profile/Elham_Pashaei"><font size= 3px > <font color=blue> ResearchGate </font></a> <br>
+<i class="fa fa-envelope"></i><a href="mailto:elhampashaei.yahoo.com" class="not-active"> elham.pashaei@gmail.com </a>
+<br>
+<br>
+<h3 style="color:green;"> Brief Biography </h3>
+<p> I received my PhD degree in Computer Engineering from Yildiz Technical University in 2017. I have pursued my activity as an independent researcher after graduating. My research interests include bioinformatics, machine learning, splice site detection, RNA-seq analysis and Evolutionary Algorithms.</p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<h3 style="color:green;"> My Publications </h3>
+<p><b> Journal Papers </b></p>
+
+* <b> E. Pashaei</b> and N. Aydin, [<b style="color:blue;"><font size=2.8px> Markovian Encoding Models in Human Splice Site Recognition using SVM </font></b>](https://www.sciencedirect.com/science/article/pii/S1476927117303638?via%3Dihub), Computational Biology and Chemistry, vol. 73, pp. 159-170, 2018.
+
+*	E. Pashaei, <b> E. Pashaei</b>, and N. Aydin, [<b style="color:blue;"><font size=2.8px> Gene Selection using Hybrid Binary Black Hole Algorithm and Modified Binary Particle Swarm Optimization </font></b>](https://www.sciencedirect.com/science/article/pii/S0888754318302295), Genomics, 2018.
+
+*	E. Pashaei, <b> E. Pashaei</b>, M. Ahmady, M. Ozen, and N. Aydin, [<b style="color:blue;"><font size=2.8px> Meta-analysis of miRNA Expression Profiles for Prostate Cancer Recurrence Following Radical Prostatectomy </font></b>](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0179543), PLoS ONE, vol. 12, p. e0179543, 2017.
+
+*	<b> E. Pashaei </b>, M. Ozen, and N. Aydin, [<b style="color:blue;"><font size=2.8px> Splice Site Identification in Human Genome using Random Forest </font></b>](https://link.springer.com/article/10.1007/s12553-016-0157-z), Health and Technology, vol. 7, pp. 141-152, 2017.
+
+<hr>
+
+<p><b> Conference Papers </b></p>
+
+*	<b> E. Pashaei </b> and N. Aydin, [<b style="color:blue;"><font size=2.8px> Frequency Difference based DNA Encoding Methods in Human Splice Site Recognition </font></b>](https://ieeexplore.ieee.org/document/8093471), in 2nd International Conference on Computer Sciences and Engineering, Antalya, Turkey, 2017.
+
+*	<b> E. Pashaei </b>, M. Ozen, and N. Aydin, [<b style="color:blue;"><font size=2.8px> Random Forest in Splice Site Prediction of Human Genome </font></b>](https://link.springer.com/chapter/10.1007/978-3-319-32703-7_100), presented at the XIV Mediterranean Conference on Medical and Biological Engineering and Computing, Paphos, Cyprus, 2016.
+
+*	<b> E. Pashaei </b>, M. Ozen, and N. Aydin,  [<b style="color:blue;"><font size=2.8px> Splice Sites Prediction of Human Genome using AdaBoost</font></b>](https://ieeexplore.ieee.org/document/7455894), presented at the IEEE International Conference on Biomedical and Health Informatics (BHI 2016), Las Vegas, USA, 2016.
+
+*	<b> E. Pashaei </b>, A. Yilmaz, and N. Aydin,  [<b style="color:blue;"><font size=2.8px> A Combined SVM and Markov Model approach for Splice Site Identification </font></b>](https://ieeexplore.ieee.org/document/7802140) , presented at the 6th IEEE International Conference in Computer and Knowledge Engineering (ICCKE2016), Mashhad, Iran, 2016.
+
+*	<b> E. Pashaei </b>, A. Yilmaz, M. Ozen, and N. Aydin,  [<b style="color:blue;"><font size=2.8px> A Novel Method for Splice Sites Prediction Using Sequence Component and Hidden Markov Model</font></b>](https://ieeexplore.ieee.org/document/7591379), presented at the 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC), Florida, USA, 2016.
+
+*	<b> E. Pashaei </b>, A. Yilmaz, M. Ozen, and N. Aydin,  [<b style="color:blue;"><font size=2.8px> Prediction of Splice Site using AdaBoost with a new Sequence Encoding Approach </font></b>](https://ieeexplore.ieee.org/document/7844835), presented at the 2016 IEEE International Conference on Systems, Man, and Cybernetics (SMC), Budapest, Hungary, 2016.
+
+*	<b> E. Pashaei </b>, A. Nourollah, and A. Bagheri,[<b style="color:blue;"><font size=2.8px> A heuristic Algorithm for Euclidean Steiner Minimal Tree inside Simple Polygon </font></b>](https://ieeexplore.ieee.org/document/6272552), presented at the IEEE International Conference on Computer Science and Automation Engineering (CSAE), Zhangjiajie, China, 2012.
+
+
+
+
